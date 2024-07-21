@@ -21,4 +21,4 @@ print("KCV AES:", texto_cifrado_bytes.hex()[0:6])
 
 m = hashlib.sha256()
 m.update(bytes.fromhex("A2CFF885901A5449E9C448BA5B948A8C4EE377152B3F1ACFA0148FB3A426DB72"))
-print("KCV SHA256: " + m.digest().hex()[0:3])
+print("KCV SHA256: " + m.digest().hex()[0:6])

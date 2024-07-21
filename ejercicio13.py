@@ -7,7 +7,7 @@ import os
 #PKCS#1 v1.5
 
 my_path = os.path.abspath(os.getcwd())
-path_file_priv = my_path + "/claveprivada-RSA_desc_oaep.pem"
+path_file_priv = my_path + "\\Documents\\GitHub\\Criptografia\\clave-rsa-oaep-priv.pem"
 key = RSA.importKey(open(path_file_priv).read())
 
 
